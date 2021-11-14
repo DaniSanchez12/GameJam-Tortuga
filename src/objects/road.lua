@@ -218,6 +218,10 @@ function Road:createRoad()
   -- LIMITE DE DIBUJADO ANTES DE LLEGAR AL CRASHEO
   self:createSection(199, 0,   -50)
   
+  -- COLOREADO DE LA CARRETERA
+  self:setRoadColor(1,810,DATA.cB37700, DATA.c004D0D, DATA.c804000, DATA.cCC8800)
+  self:setRoadColor(811,1596,DATA.mB37700, DATA.m004D0D, DATA.m804000, DATA.mCC8800)
+  self:setRoadColor(1597,2800,DATA.pB37700, DATA.p004D0D, DATA.pCC8800, DATA.p004D0D)
 
 -- Primera Fase: Bosque (1-810)
 
